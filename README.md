@@ -1,5 +1,5 @@
 # MapReduce
-First, Why do we need it? Becase some data is just too big for one machine.  
+Why do we need it? Becase some data is just too big for one machine.  
 
 ### What is Big Data?
 
