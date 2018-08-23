@@ -1,5 +1,5 @@
 # MapReduce
-Why do we need it? Becase some data is just too big for one machine.  
+Why do we need it? Because some data is just too big for one machine.  
 
 ### What is Big Data?
 
@@ -60,4 +60,4 @@ __Map Function__
 __Reduce Function__
 1. Data is read in as key-value pairs, where every value for a given key has been aggregated into a list (i.e. all the records with the same key end up on the same reducer).
 2. All values in the value list are combined (reduced) in some way.
-3. Data is output as key-value pairs, stored in multiple files. 
+3. Data is output as key-value pairs, stored in multiple files.
