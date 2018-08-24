@@ -37,7 +37,9 @@ class WordCountByTopic(MRJob):
         yield word, max(values, key=lambda x: x[1])
 
     def reducer2(self, word, values):
-        yield word, max(values, key=lambda x: x[1])[0]
+        word_ = "word: {}".format(word)
+        topic_ = "Topic: {}".format(max(values, key=lambda x: x[1])[0])
+        yield word_, topic_
 
     def steps(self):
         return [
